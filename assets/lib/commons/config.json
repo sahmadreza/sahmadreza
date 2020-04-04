@@ -1,0 +1,74 @@
+{
+  "App": {
+    "title": "راموز",
+    "last_version": 1,
+    "note_last_version": "تغییرات آخر شماره یک شماره دو شماره سه",
+    "link": "http://directlink.com/sd.apk"
+  },
+  "HorizonLayout": [
+    {
+      "place": "home",
+      "title": "دسته بندی ها",
+      "product_type": "categorylist",
+      "product_count": "12",
+      "sort": "0",
+      "items": [
+        {
+          "id": 11,
+          "parent_id": null,
+          "order": "1",
+          "name": "دمنوش",
+          "icon": "categories/February2020/diPi1H4yo3Wy8Lsy2UXa.jpg",
+          "slug": "herbal-tee"
+        },
+        {
+          "id": 12,
+          "parent_id": null,
+          "order": "1",
+          "name": "چای",
+          "icon": "categories/February2020/5JRtiu5cMtXmtIujJX7Z.jpg",
+          "slug": "tea"
+        },
+        {
+          "id": 13,
+          "parent_id": null,
+          "order": "1",
+          "name": "قهوه سرد",
+          "icon": "categories/February2020/7etZ0OAMk0bmQOdVCjok.jpg",
+          "slug": "cold-coffee"
+        },
+        {
+          "id": 14,
+          "parent_id": null,
+          "order": "1",
+          "name": "قهوه",
+          "icon": "categories/February2020/lGZxFhB0xhfOgvdUVWkB.jpg",
+          "slug": "coffee"
+        }
+      ],
+      "type": "image"
+    },
+    {
+      "place": "home",
+      "title": "قهوه",
+      "product_type": "category",
+      "product_count": "12",
+      "sort": "1",
+      "category_id": "14",
+      "layout": "threeColumn"
+    },
+    {
+      "place": "home",
+      "title": "حراجی",
+      "product_type": "discount",
+      "product_count": "12",
+      "sort": "2",
+      "category_id": "11",
+      "layout": "threeColumn"
+    }
+  ],
+  "Setting": {
+    "MainColor": "#353434",
+    "ProductListLayout": "list"
+  }
+}
